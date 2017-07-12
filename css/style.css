@@ -1,0 +1,38 @@
+body {
+	font-family: 'PT Sans Caption', sans-serif;
+	background-color:#B3E272;
+}
+
+.jumbotron {
+	background-image: url("http://www.pptbackgrounds.org/uploads/colored-crystals-powerpoint-backgrounds.jpg");
+	font-family: 'Bangers', cursive;
+	text-align:center;
+	color:white;
+	height: 145px;
+}
+
+.panel-heading{
+	font-family: 'Bangers', cursive;
+	font-size: 100px;
+	background-image: url("http://www.pptbackgrounds.org/uploads/colored-crystals-powerpoint-backgrounds.jpg");
+	color:white!important;
+}
+
+h1.panel-title {
+    font-size: 36px;
+    text-align:center;
+}
+
+h3.panel-title {
+    font-size: 24px;
+    text-align:center;
+}
+
+#buttons{
+	text-align:center;
+
+}
+
+#pb1{
+	text-align:center;
+}

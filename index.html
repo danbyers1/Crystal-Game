@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week-4-game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+</head>
+<body>
+	<div class="jumbotron" >
+		<h1>Crystal Collector!</h1>
+	</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				 <div class="panel-heading">	
+				 	<h1 class="panel-title">Objective:</h1>
+				 </div>
+					<div class="panel-body">
+					<p>
+					You will be given a random number at the start of the game.
+						<br><br>
+					You have 4 crystals to chose from. By clicking on a crystal you will add a specific amount of points to your total score.
+						<br><br>
+					You win the game by matching your total score to the random number, and you lose the game if your total score is greater than the random number. 
+						<br><br>
+					The value of each crystal is hidden and change at the start of each new game. 
+					</p>
+					</div>
+			</div>
+		</div>
+			<div class="col-md-8">	
+						<div class="row">	
+							<div class="col-md-4">
+								<div class="panel panel-default">
+								 	<div class="panel-heading">	
+								 	<h3 class="panel-title">Random Number</h3>
+								 	</div>
+				  						<div class="panel-body">
+				  						<strong id="pb1"></strong>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="panel panel-default">
+								 	<div class="panel-heading">	
+								 	<h3 class="panel-title">Your Score:</h3>
+								 	</div>
+				  						<div class="panel-body">
+				  						<strong id="pb2"></strong>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="panel panel-default">
+								 	<div class="panel-heading">	
+								 	<h3 class="panel-title">Won/Lost:</h3>
+								 	</div>
+				  						<div class="panel-body">
+				  						<p>score here</p>
+										</div>
+								</div>
+							</div>
+						</div>			
+				<div class="panel panel-default">
+				 <div class="panel-heading">	
+				 	<h1 class="panel-title">Select a crystal</h1>
+				 </div>
+  						<div class="panel-body" id="buttons">
+							<button class="btn btn-default" id="crys1">
+			     				<img src="images/crystal2.jpg" width="120" height="120" />
+							</button>
+							<button class="btn btn-default" id="crys2">
+			     				<img src="images/crystal3.jpg" width="120" height="120" />
+							</button>
+							<button class="btn btn-default" id="crys3">
+			     				<img src="images/crystal4.jpg" width="120" height="120" />
+							</button>
+							<button class="btn btn-default" id="crys4">
+			     				<img src="images/crystal5.jpg" width="120" height="120" />
+							</button>
+						</div>
+				</div>
+			</div>
+		
+	</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript/game.js"></script>
+</body>
+</html>
