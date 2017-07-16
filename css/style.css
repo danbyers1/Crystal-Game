@@ -36,3 +36,10 @@ h3.panel-title {
 #pb1{
 	text-align:center;
 }
+
+#lostScore{
+	color:red;
+}
+#winScore{
+	color:green;
+}
